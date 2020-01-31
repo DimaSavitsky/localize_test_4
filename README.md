@@ -40,6 +40,8 @@ The right signal to observe is the availability of the global `AMP` variable, an
 
 This code will work, and any number of callbacks added this way will indeed fire when AMP is available, but why?
 
+This is a new paragraph.
+
 This code translates to:
 
   1. “if window.AMP doesn't exist, create an empty array to take its position”
